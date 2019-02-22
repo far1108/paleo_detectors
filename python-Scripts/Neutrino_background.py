@@ -60,5 +60,5 @@ for i in range(ldata):
 	dRdE[i] = GF**2/(4*np.pi)*QW**2*M*c_light**2*F2(q(ER[i]))/(hbar*c_light)**4*(Phi_int[i]-M*c_light**2*ER[i]/2*Phi_d_E_int[i])/M
 
 # save recoil rate depending on the track length in 1/(kg*s*m)
-# the corresping track lengths are the same as obtained from "Tracklength_spectrum.py"
+# the corresponding track lengths are the same as obtained from "Tracklength_spectrum.py"
 np.savetxt('nu-spectrum.txt',dRdE*dEdx)
