@@ -1,5 +1,5 @@
 # calculate projected sensitivities (90%CL) via a cut-and-count-analysis
-# results saved in "Sensitivities"
+# results saved in "Data/Sensitivities"
 
 import numpy as np
 import matplotlib.pyplot as plt
