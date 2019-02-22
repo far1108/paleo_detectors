@@ -1,5 +1,5 @@
 # calculate recoil rate induced by neutrino-background for one sort of nuclei in a mineral
-# results saved in "Neutrino_background/Recoil_rates"
+# results saved in "Data/Neutrino_background/Recoil_rates"
 
 import numpy as np
 import matplotlib.pyplot as plt
