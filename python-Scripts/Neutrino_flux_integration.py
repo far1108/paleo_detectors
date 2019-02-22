@@ -1,5 +1,5 @@
 # compute the integrals over neutrino fluxes needed for computation of neutrino recoil spectra
-# saved in "Neutrino_background/Integrated_fluxes"
+# saved in "Data/Neutrino_background/Integrated_fluxes"
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,7 +23,7 @@ ldata=len(ER)
 
 # txt-files containing neutrino fluxes (solar,atmospheric,supernova) in 1/(cm^2 s MeV) with the respective neutrino energy in MeV
 # fluxes and their respective energy ranges (i.e. the maximum energy of each contribution) taken from https://arxiv.org/pdf/1604.03858.pdf
-# and saved in "Neutrino_background/Neutrino_flux"
+# and saved in "Data/Neutrino_background/Neutrino_flux"
 # (monoenergetic contributions to the flux will be accounted for in the integration)
 E_1,flux_11,flux_12,flux_13,flux_14 = np.loadtxt('nu-flux_1.txt',unpack=True)
 E_2,flux_21,flux_22,flux_23,flux_24 = np.loadtxt('nu-flux_2.txt',unpack=True)
