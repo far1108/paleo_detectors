@@ -1,2 +1,2 @@
-# paleo_detectors
-Calculation of nuclear recoil tracks induced by WIMP scattering in crystalline materials
+# Paleo detectors
+[Python scripts](python-Scripts) and the resulting [data](Data) used in my bachelor thesis on WIMP-induced nuclear recoil tracks.
