@@ -1,5 +1,5 @@
 # calculate tracklengths and recoil spectra induced by WIMP scattering for one sort of nuclei in a mineral
-# results saved in "Tracklengths_Recoilrates"
+# results saved in "Data/Tracklengths_recoilrates"
 
 import numpy as np
 import matplotlib.pyplot as plt
